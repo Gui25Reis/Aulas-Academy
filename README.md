@@ -21,67 +21,56 @@ Os repositórios estão disponíveis clicando no título.
 <table>
     <tr>
         <td><h3 align="center">Título</h3></td>
-        <td><h3 align="center">Challenge</h3></td>
         <td><h3 align="center">Plataforma</h3></td>
         <td><h3 align="center">Descrição</h3></td>
     </tr>
     <tr>
         <td><a href="https://twitter.com/AppleEDU/status/1349506883443445760"><p>Comunidade Autista</p></a></td>
-        <td><p>01</p></td>
         <td><p></p></td>
         <td><p>Fazer um impacto positivo na comunidade.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/Gui25Reis/Swift-Student-Challenge-2021"><p>Ball Runner</p></a></td>
-        <td><p>02</p></td>
         <td><p>Playgrounds</p></td>
         <td><p>Swift Student Challenge 2021.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/Gui25Reis/Inkolors"><p>Inkolors</p></a></td>
-        <td><p>03</p></td>
         <td><p>iOS</p></td>
         <td><p>My First App: Primeiro app.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/Gui25Reis/Crap-Game"><p>Crap Game</p></a></td>
-        <td><p>04</p></td>
         <td><p>iOS</p></td>
         <td><p>Manutenção de um app do Nano 02.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/Gui25Reis/Ball-Runner"><p>Ball Runner</p></a></td>
-        <td><p>05</p></td>
         <td><p>iOS</p></td>
         <td><p>O app que eu preciso.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/Gui25Reis/Coverless"><p>Coverless</p></a></td>
-        <td><p>06</p></td>
         <td><p>iOS</p></td>
         <td><p>Acessibilidade e Inclusão.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/Developer-Academy-Mackenzie-2021-2022/Everest"><p>Everest</p></a></td>
-        <td><p>07</p></td>
         <td><p>Framework</p></td>
         <td><p>Framework de gráficos com SwiftUI.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/biaduque/TheMidway"><p>The Midway</p></a></td>
-        <td><p>08</p></td>
         <td><p>iOS</p></td>
         <td><p>Tema livre com: backend, appclips e widget.</p></td>
     </tr>
     <tr>
         <td><a href="https://github.com/biaduque/TheMidway"><p>The Midway</p></a></td>
-        <td><p>09</p></td>
         <td><p>iOS</p></td>
         <td><p>Novo app ou continuação de um que existe.</p></td>
     </tr>
     <tr>
         <td><a href=""><p>-</p></a></td>
-        <td><p>10</p></td>
         <td><p>iOS e tvOS</p></td>
         <td><p>Um jogo usando frameworks para jogo.</p></td>
     </tr>
