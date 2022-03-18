@@ -9,9 +9,10 @@ Práticas, estudos e aulas tidas durante o período da [Academy](https://develop
 2. [Bridges](#bridges)
 3. [Aulas](#aulas)
 4. [Estudos](#estudos)
-<!-- 5. [Documentação](#documentação) -->
 5. [Licença](#licença)
 6. [Autor](#author)
+
+<!-- 5. [Documentação](#documentação) -->
 
 </br>
 
