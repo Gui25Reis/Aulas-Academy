@@ -9,9 +9,9 @@ Práticas, estudos e aulas tidas durante o período da [Academy](https://develop
 2. [Bridges](#bridges)
 3. [Aulas](#aulas)
 4. [Estudos](#estudos)
-5. [Documentação](#documentação)
-6. [Licença](#licença)
-7. [Autor](#author)
+<!-- 5. [Documentação](#documentação) -->
+5. [Licença](#licença)
+6. [Autor](#author)
 
 </br>
 
@@ -70,9 +70,9 @@ Os repositórios estão disponíveis clicando no título.
         <td><p>Novo app ou continuação de um que existe.</p></td>
     </tr>
     <tr>
-        <td><a href=""><p>-</p></a></td>
+        <td><a href="https://github.com/rebeccamello/SinglePlayerGame"><p>Catch Fly</p></a></td>
         <td><p>iOS e tvOS</p></td>
-        <td><p>Um jogo usando frameworks para jogo.</p></td>
+        <td><p>Um jogo usando os frameworks nativos para jogos.</p></td>
     </tr>
 </table>
 
@@ -117,8 +117,6 @@ Aulas     | Descrição
 [CoreMotion](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/CoreMotion)        | Uso dos sensores dos dispositivos iOS.
 [CoreAnimation](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/CoreAnimation)  | Animações e criação de figuras em baixo nível.
 [SwiftUI](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/SwiftUI)              | Introdução ao framework
-[CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/CoreData)            | Uso do CoreData com tabelas
-[GameKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/GameiKit)             | Uso do gameCenter e projeto multi-plataforma
 
 </br>
 
@@ -132,12 +130,14 @@ Assunto   | Descrição
 [CNContact](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/CNContact)  | Integração com a agenda de contatos do iPhone no código.
 [Table + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/TableView-CoreData)  | Entendendo sobre tabelas com CoreData.
 [Collection + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/Collection-CoreData)  | Entendendo sobre collections com CoreData.
+[AVFoundation](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/AVFoundation)  | Uso de áudios dentro do app
+
 
 </br>
 
 
-## Documentação
-Mais informações sobre as práticas se encontra na [wiki](https://github.com/Gui25Reis/Aulas-Academy/wiki) do projeto.
+<!-- ## Documentação
+Mais informações sobre as práticas se encontra na [wiki](https://github.com/Gui25Reis/Aulas-Academy/wiki) do projeto. -->
 
 
 ## Licença
