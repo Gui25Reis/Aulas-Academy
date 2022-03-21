@@ -2,6 +2,6 @@
 
 
 protocol AudioDelegate: AnyObject {
-    func toggleSound() -> Bool
-    func toggleMusic() -> Bool
+    func toggleSound() -> Void
+    func toggleMusic() -> Void
 }

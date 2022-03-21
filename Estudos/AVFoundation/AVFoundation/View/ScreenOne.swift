@@ -42,14 +42,23 @@ class ScreenOne: UIView {
     public func updateSoundButtonIcon(with icon: Buttons) -> Void {
         self.soundButton.setButtonImage(icon: icon)
     }
+
+    /* As ações dos botões */
     
-    /* Retorno dos botões */
+    public func setMusicAction(target: UIViewController, action: Selector) -> Void {
+        self.musicButton.addTarget(target, action: action, for: .touchDown)
+    }
     
-    public func getMusicButton() -> UIButton {return self.musicButton}
+    public func setSoundAction(target: UIViewController, action: Selector) -> Void {
+        self.soundButton.addTarget(target, action: action, for: .touchDown)
+    }
     
-    public func getSoundButton() -> UIButton {return self.soundButton}
+    public func setOtherAction(target: UIViewController, action: Selector) -> Void {
+        self.otherButton.addTarget(target, action: action, for: .touchDown)
+    }
     
-    public func getOtherButton() -> UIButton {return self.otherButton}
+    
+    
     
     
     

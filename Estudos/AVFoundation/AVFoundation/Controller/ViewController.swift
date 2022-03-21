@@ -25,16 +25,34 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Add as ações dos botões
-        self.myView.getMusicButton().addTarget(self, action: #selector(self.musicAction), for: .touchDown)
-        self.myView.getSoundButton().addTarget(self, action: #selector(self.soundAction), for: .touchDown)
-        self.myView.getOtherButton().addTarget(self, action: #selector(self.otherAction), for: .touchDown)
+        self.myView.setMusicAction(target: self, action: #selector(self.musicAction))
+        self.myView.setSoundAction(target: self, action: #selector(self.soundAction))
+        self.myView.setOtherAction(target: self, action: #selector(self.otherAction))
     }
     
     
     public override func viewDidAppear(_ animated: Bool) -> Void {
         super.viewDidAppear(animated)
         
-        AudioController.shared.soundManager(with: .backgroundMusic, soundAction: .play)
+        // Verifica se é a primeira vez que está entranod no app
+        if !UserDefaults.standard.bool(forKey: "firstTimeOpenApp") {
+            AudioController.shared.toggleSound()
+            AudioController.shared.toggleMusic()
+            
+            UserDefaults.standard.set(true, forKey: "firstTimeOpenApp")
+        }
+        
+        
+        // Verifica se os áudios já estavam inativos
+        if !AudioController.shared.getUserDefaultsStatus(with: .sound) {
+            self.myView.updateSoundButtonIcon(with: .soundOff)
+        }
+        
+        if !AudioController.shared.getUserDefaultsStatus(with: .music) {
+            self.myView.updateMusicButtonIcon(with: .musicOff)
+        } else {
+            AudioController.shared.soundManager(with: .backgroundMusic, soundAction: .play)
+        }
     }
     
     
@@ -43,51 +61,36 @@ class ViewController: UIViewController {
     
     /// Ação de quando clica no botão de música
     @objc private func musicAction() -> Void {
+        AudioController.shared.toggleMusic()
         var bt: Buttons
         
-        switch AudioController.shared.toggleMusic() {
-            case true:
-                bt = .musicOn
-                AudioController.shared.soundManager(with: .backgroundMusic, soundAction: .play)
-            
-            case false:
-                bt = .musicOff
-                AudioController.shared.soundManager(with: .backgroundMusic, soundAction: .pause)
+        switch AudioController.shared.getUserDefaultsStatus(with: .music) {
+            case true: bt = .musicOn
+            case false: bt = .musicOff
         }
         
-        self.playAudio(audio: .button, type: .sound)
-        self.myView.getMusicButton().setButtonImage(icon: bt)
+        AudioController.shared.soundManager(with: .button, soundAction: .play)
+        self.myView.updateMusicButtonIcon(with: bt)
     }
     
     
     /// Ação de quando clica no botão de som
     @objc private func soundAction() -> Void {
-        
+        AudioController.shared.toggleSound()
         var bt: Buttons
         
-        switch AudioController.shared.toggleSound() {
+        switch AudioController.shared.getUserDefaultsStatus(with: .sound) {
             case true: bt = .soundOn
             case false: bt = .soundOff
         }
         
-        self.playAudio(audio: .button, type: .sound)
-        self.myView.getSoundButton().setButtonImage(icon: bt)
+        AudioController.shared.soundManager(with: .button, soundAction: .play)
+        self.myView.updateSoundButtonIcon(with: bt)
     }
     
     
     /// Ação de quando clica no botão de som
     @objc private func otherAction() -> Void {
-        self.playAudio(audio: .button, type: .sound)
-    }
-    
-    
-    
-    /* MARK: - Outros */
-    
-    /// Toca o som quando necessário
-    private func playAudio(audio: AudiosList, type: AudioType) {
-        if AudioController.shared.getUserDefaultsStatus(with: type) {
-            AudioController.shared.soundManager(with: audio, soundAction: .play)
-        }
+        AudioController.shared.soundManager(with: .button, soundAction: .play)
     }
 }

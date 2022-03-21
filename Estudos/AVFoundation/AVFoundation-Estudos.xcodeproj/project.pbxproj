@@ -14,15 +14,15 @@
 		22399B8A27E262B4001DC9F8 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22399B8927E262B4001DC9F8 /* Buttons.swift */; };
 		22399B8C27E2639C001DC9F8 /* UIButton+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22399B8B27E2639C001DC9F8 /* UIButton+Buttons.swift */; };
 		22399B9027E281E8001DC9F8 /* CostumViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22399B8F27E281E8001DC9F8 /* CostumViews.swift */; };
-		228F139B27E51A8B00311EBA /* Som-Colisao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 228F139727E51A8B00311EBA /* Som-Colisao.mp3 */; };
-		228F139C27E51A8B00311EBA /* Som-Swipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 228F139827E51A8B00311EBA /* Som-Swipe.mp3 */; };
-		228F139D27E51A8B00311EBA /* Som-Botao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 228F139927E51A8B00311EBA /* Som-Botao.mp3 */; };
-		228F139E27E51A8B00311EBA /* Musica-Fundo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 228F139A27E51A8B00311EBA /* Musica-Fundo.mp3 */; };
 		22BBC1C027E2577100EAC87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BBC1BF27E2577100EAC87A /* AppDelegate.swift */; };
 		22BBC1C227E2577100EAC87A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BBC1C127E2577100EAC87A /* SceneDelegate.swift */; };
 		22BBC1C427E2577100EAC87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BBC1C327E2577100EAC87A /* ViewController.swift */; };
 		22BBC1C927E2577200EAC87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BBC1C827E2577200EAC87A /* Assets.xcassets */; };
 		22BBC1CC27E2577200EAC87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BBC1CA27E2577200EAC87A /* LaunchScreen.storyboard */; };
+		22C105F927E8ED0D0095EB3E /* Som-Colisao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C105F527E8ED0D0095EB3E /* Som-Colisao.mp3 */; };
+		22C105FA27E8ED0D0095EB3E /* Som-Botao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C105F627E8ED0D0095EB3E /* Som-Botao.mp3 */; };
+		22C105FB27E8ED0D0095EB3E /* Musica-Fundo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C105F727E8ED0D0095EB3E /* Musica-Fundo.mp3 */; };
+		22C105FC27E8ED0D0095EB3E /* Som-Swipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C105F827E8ED0D0095EB3E /* Som-Swipe.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +33,6 @@
 		22399B8927E262B4001DC9F8 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		22399B8B27E2639C001DC9F8 /* UIButton+Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Buttons.swift"; sourceTree = "<group>"; };
 		22399B8F27E281E8001DC9F8 /* CostumViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumViews.swift; sourceTree = "<group>"; };
-		228F139727E51A8B00311EBA /* Som-Colisao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Som-Colisao.mp3"; path = "../../Arquivos/Musicas/mp3/Som-Colisao.mp3"; sourceTree = "<group>"; };
-		228F139827E51A8B00311EBA /* Som-Swipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Som-Swipe.mp3"; path = "../../Arquivos/Musicas/mp3/Som-Swipe.mp3"; sourceTree = "<group>"; };
-		228F139927E51A8B00311EBA /* Som-Botao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Som-Botao.mp3"; path = "../../Arquivos/Musicas/mp3/Som-Botao.mp3"; sourceTree = "<group>"; };
-		228F139A27E51A8B00311EBA /* Musica-Fundo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Musica-Fundo.mp3"; path = "../../Arquivos/Musicas/mp3/Musica-Fundo.mp3"; sourceTree = "<group>"; };
 		22BBC1BC27E2577100EAC87A /* AVFoundation-Estudos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation-Estudos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BBC1BF27E2577100EAC87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22BBC1C127E2577100EAC87A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +40,10 @@
 		22BBC1C827E2577200EAC87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22BBC1CB27E2577200EAC87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22BBC1CD27E2577200EAC87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C105F527E8ED0D0095EB3E /* Som-Colisao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Som-Colisao.mp3"; sourceTree = "<group>"; };
+		22C105F627E8ED0D0095EB3E /* Som-Botao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Som-Botao.mp3"; sourceTree = "<group>"; };
+		22C105F727E8ED0D0095EB3E /* Musica-Fundo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Musica-Fundo.mp3"; sourceTree = "<group>"; };
+		22C105F827E8ED0D0095EB3E /* Som-Swipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Som-Swipe.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +69,10 @@
 		22399B7D27E2582E001DC9F8 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				228F139A27E51A8B00311EBA /* Musica-Fundo.mp3 */,
-				228F139927E51A8B00311EBA /* Som-Botao.mp3 */,
-				228F139727E51A8B00311EBA /* Som-Colisao.mp3 */,
-				228F139827E51A8B00311EBA /* Som-Swipe.mp3 */,
+				22C105F727E8ED0D0095EB3E /* Musica-Fundo.mp3 */,
+				22C105F627E8ED0D0095EB3E /* Som-Botao.mp3 */,
+				22C105F527E8ED0D0095EB3E /* Som-Colisao.mp3 */,
+				22C105F827E8ED0D0095EB3E /* Som-Swipe.mp3 */,
 				22BBC1C827E2577200EAC87A /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -219,12 +219,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228F139B27E51A8B00311EBA /* Som-Colisao.mp3 in Resources */,
+				22C105FA27E8ED0D0095EB3E /* Som-Botao.mp3 in Resources */,
+				22C105F927E8ED0D0095EB3E /* Som-Colisao.mp3 in Resources */,
+				22C105FB27E8ED0D0095EB3E /* Musica-Fundo.mp3 in Resources */,
+				22C105FC27E8ED0D0095EB3E /* Som-Swipe.mp3 in Resources */,
 				22BBC1CC27E2577200EAC87A /* LaunchScreen.storyboard in Resources */,
-				228F139D27E51A8B00311EBA /* Som-Botao.mp3 in Resources */,
 				22BBC1C927E2577200EAC87A /* Assets.xcassets in Resources */,
-				228F139C27E51A8B00311EBA /* Som-Swipe.mp3 in Resources */,
-				228F139E27E51A8B00311EBA /* Musica-Fundo.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,14 +20,24 @@ class AudioController: AudioDelegate {
     /* MARK: - Delegate */
     
     /// Muda a variável que verifica se os sons estão ativados ou não
-    internal func toggleSound() -> Bool {
-        return self.updateUserDefaults(soundType: .sound)
+    internal func toggleSound() -> Void {
+        switch self.updateUserDefaults(soundType: .sound) {
+        case true:
+            self.soundManager(with: .button, soundAction: .play)
+        case false:
+            self.soundManager(with: .button, soundAction: .pause)
+        }
     }
     
     
     /// Muda a variável que verifica se as músicas estão ativadas ou não
-    internal func toggleMusic() -> Bool {
-        return self.updateUserDefaults(soundType: .music)
+    internal func toggleMusic() -> Void {
+        switch self.updateUserDefaults(soundType: .music) {
+            case true:
+                self.soundManager(with: .backgroundMusic, soundAction: .play)
+            case false:
+                self.soundManager(with: .backgroundMusic, soundAction: .pause)
+        }
     }
     
     
