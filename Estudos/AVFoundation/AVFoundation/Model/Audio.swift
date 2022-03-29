@@ -28,7 +28,7 @@ enum AudiosAction {
 
 /// Quantidade de reproduções
 enum AudioReproduction: Int {
-    case oneTime = 1
+    case oneTime = 0
     case loop = -1
 }
 

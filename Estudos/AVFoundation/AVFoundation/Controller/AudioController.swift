@@ -61,7 +61,14 @@ class AudioController: AudioDelegate {
         if let audio = audio {
             switch soundAction {
             case .play:
+                // Verifica se pode tocar o áudio
                 if UserDefaults.standard.bool(forKey: userDefaultsKey) {
+                    
+                    // Condição pra sobrescrever um áudio (se estiver tocando e não for uma música)
+                    if audio.isPlaying && self.verifyAudioType(with: sound) != .music {
+                        audio.pause()           // Pause a música
+                        audio.currentTime = 0   // Volta pro ínicio
+                    }
                     audio.play()
                 }
             case .pause:
