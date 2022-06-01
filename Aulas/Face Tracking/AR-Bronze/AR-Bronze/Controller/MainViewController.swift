@@ -47,6 +47,7 @@ class MainViewController: UIViewController, MainViewControllerDelegate, ARSCNVie
             
             // Configuração que a AR vai fazer
             let configuration = ARFaceTrackingConfiguration()
+            configuration.maximumNumberOfTrackedFaces = 2
             
             view.runConfiguration(with: configuration)
         }

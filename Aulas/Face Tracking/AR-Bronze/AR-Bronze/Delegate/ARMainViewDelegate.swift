@@ -72,9 +72,8 @@ class ARMainViewDelegate: NSObject, ARSCNViewDelegate {
         }
         
         // Bravo
-
-        let eyeLeft = self.getExpressionValue(with: .eyeLookDownLeft, for: anchor) > 0.1
-        let eyeRight = self.getExpressionValue(with: .eyeLookDownRight, for: anchor) > 0.1
+        let eyeLeft = self.getExpressionValue(with: .browDownLeft, for: anchor) > 0.2
+        let eyeRight = self.getExpressionValue(with: .browDownRight, for: anchor) > 0.2
 
         if eyeLeft && eyeRight {
             self.analysis += "Bravooo"
