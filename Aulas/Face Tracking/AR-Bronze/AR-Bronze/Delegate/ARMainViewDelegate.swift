@@ -63,20 +63,96 @@ class ARMainViewDelegate: NSObject, ARSCNViewDelegate {
     private func expressionAnalysis(with anchor: ARFaceAnchor) {
         self.analysis = ""
     
-        if self.getExpressionValue(with: .cheekPuff, for: anchor) > 0.1 {
-            self.analysis += "You're cheeks are puffed!"
-        }
+        let innerUp = self.getExpressionValue(with: .browInnerUp, for: anchor) > 0.1
+        let cheekPuff = self.getExpressionValue(with: .cheekPuff, for: anchor) > 0.1
         
-        if self.getExpressionValue(with: .tongueOut, for: anchor) > 0.1 {
-            self.analysis += "Don't stick your tonge out!"
-        }
+        let frownLeft = self.getExpressionValue(with: .mouthFrownLeft, for: anchor) > 0.1
+        let frownRight = self.getExpressionValue(with: .mouthFrownRight, for: anchor) > 0.1
         
-        // Bravo
-        let eyeLeft = self.getExpressionValue(with: .browDownLeft, for: anchor) > 0.2
-        let eyeRight = self.getExpressionValue(with: .browDownRight, for: anchor) > 0.2
+        let tongueOut = self.getExpressionValue(with: .tongueOut, for: anchor) > 0.2
+        
+        let eyeLeft = self.getExpressionValue(with: .browDownLeft, for: anchor) > 0.4
+        let eyeRight = self.getExpressionValue(with: .browDownRight, for: anchor) > 0.4
+        let eyeSquinLeft = self.getExpressionValue(with: .eyeSquintLeft, for: anchor) > 0.1
+        let eyeSquinRight = self.getExpressionValue(with: .eyeSquintRight, for: anchor) > 0.1
+        let brownLeft = self.getExpressionValue(with: .browOuterUpRight, for: anchor) > 0.1
+        let lookDownLeft = self.getExpressionValue(with: .eyeLookDownLeft, for: anchor) > 0.4
+        let lookDownRight = self.getExpressionValue(with: .eyeLookDownRight, for: anchor) > 0.4
+        
+        let smileLeft = self.getExpressionValue(with: .mouthSmileLeft, for: anchor) > 0.4
+        let smileRight = self.getExpressionValue(with: .mouthSmileRight, for: anchor) > 0.4
+        let mouthClose = self.getExpressionValue(with: .mouthClose, for: anchor) > 0.1
+        let jawOpen = self.getExpressionValue(with: .jawOpen, for: anchor) > 0.1
+        
+        let blinkRight = self.getExpressionValue(with: .eyeBlinkRight, for: anchor) > 0.2
+        let blinkLeft = self.getExpressionValue(with: .eyeBlinkLeft, for: anchor) > 0.2
 
-        if eyeLeft && eyeRight {
-            self.analysis += "Bravooo"
+        // 😃
+        if smileLeft && smileRight && jawOpen && !tongueOut && !(eyeLeft && eyeRight) {
+            self.analysis += "risadinha"
+        }
+
+        // 😛
+        if tongueOut {
+            self.analysis += "linguinha"
+        }
+        
+        // 😗
+        
+        if mouthPucker && !jawOpen && !cheekPuff && !(eyeLeft && eyeRight){
+            self.analysis += "beijinho"
+        }
+        
+        // 😏
+        let smileLeft2 = self.getExpressionValue(with: .mouthSmileLeft, for: anchor)
+        if  {
+            self.analysis += "safadinho"
+        }
+        
+
+        // 😮
+        if  {
+            self.analysis += "assustadinho"
+        }
+        
+        // ☺️
+        if innerUp && blinkLeft && blinkRight && smileLeft && smileRight && !jawOpen && !(eyeLeft && eyeRight) {
+            self.analysis += "sorrisinho"
+        }
+        
+        // 🥺
+        
+        if innerUp && frownRight && frownLeft && !jawOpen && mouthPucker2 && !(eyeLeft && eyeRight) {
+            self.analysis += "chateadinho"
+        }
+        
+        
+        // 😠
+        if eyeLeft && eyeRight && self.getExpressionValue(with: .mouthPucker, for: anchor) > 0.2 && !tongueOut {
+            self.analysis += "bravinho"
+        }
+        
+        // 😈
+        if eyeLeft && eyeRight && !tongueOut &&
+            (innerUp && blinkLeft && blinkRight && smileLeft && smileRight && !jawOpen)
+        {
+            self.analysis += "diabinho"
+        }
+        
+        // 🤫
+        if lookDownLeft && lookDownRight && mouthClose {
+            self.analysis += "segredinho"
+        }
+        
+        
+        // 🤨
+        if mouthClose && brownLeft {
+            self.analysis += "baguncadinho"
+        }
+        
+        // 😑
+        if eyeSquinLeft && eyeSquinRight && mouthClose {
+            self.analysis += "dormindo"
         }
     }
     

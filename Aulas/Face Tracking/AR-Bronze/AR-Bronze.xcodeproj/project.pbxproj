@@ -15,6 +15,8 @@
 		220F22852846A1B600075557 /* ARMainViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F22842846A1B600075557 /* ARMainViewDelegate.swift */; };
 		220F22882846A30A00075557 /* MainViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F22872846A30A00075557 /* MainViewControllerDelegate.swift */; };
 		220F228B2846A61900075557 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F228A2846A61900075557 /* MainView.swift */; };
+		2257F8BC285280390097208D /* ExpressionAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257F8BB285280390097208D /* ExpressionAnalysis.swift */; };
+		2257F8BE285280A60097208D /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257F8BD285280A60097208D /* Emojis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		220F22842846A1B600075557 /* ARMainViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMainViewDelegate.swift; sourceTree = "<group>"; };
 		220F22872846A30A00075557 /* MainViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerDelegate.swift; sourceTree = "<group>"; };
 		220F228A2846A61900075557 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2257F8BB285280390097208D /* ExpressionAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionAnalysis.swift; sourceTree = "<group>"; };
+		2257F8BD285280A60097208D /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 		220F22622846A01200075557 = {
 			isa = PBXGroup;
 			children = (
+				2257F8BD285280A60097208D /* Emojis.swift */,
 				220F228D2846E24E00075557 /* Shared */,
 				220F226D2846A01200075557 /* AR-Bronze */,
 				220F226C2846A01200075557 /* Products */,
@@ -65,6 +70,7 @@
 				220F22892846A57200075557 /* View */,
 				220F22822846A0DA00075557 /* Controller */,
 				220F22702846A01200075557 /* art.scnassets */,
+				2257F8BB285280390097208D /* ExpressionAnalysis.swift */,
 			);
 			path = "AR-Bronze";
 			sourceTree = "<group>";
@@ -190,9 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2257F8BE285280A60097208D /* Emojis.swift in Sources */,
 				220F22882846A30A00075557 /* MainViewControllerDelegate.swift in Sources */,
 				220F22732846A01200075557 /* MainViewController.swift in Sources */,
 				220F228B2846A61900075557 /* MainView.swift in Sources */,
+				2257F8BC285280390097208D /* ExpressionAnalysis.swift in Sources */,
 				220F22852846A1B600075557 /* ARMainViewDelegate.swift in Sources */,
 				220F226F2846A01200075557 /* AppDelegate.swift in Sources */,
 			);
