@@ -75,6 +75,16 @@ Os repositórios estão disponíveis clicando no título.
         <td><p>iOS e tvOS</p></td>
         <td><p>Um jogo usando os frameworks nativos para jogos.</p></td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/gbrlCM/MC4-Capivara-Gamer"><p>Capy</p></a></td>
+        <td><p></p></td>
+        <td><p>Business</p></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Gui25Reis/Realidade-Aumentada"><p>emotivAR</p></a></td>
+        <td><p>iOS</p></td>
+        <td><p>Realidade Aumentada</p></td>
+    </tr>
 </table>
 
 </br>
@@ -118,6 +128,8 @@ Aulas     | Descrição
 [CoreMotion](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/CoreMotion)        | Uso dos sensores dos dispositivos iOS.
 [CoreAnimation](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/CoreAnimation)  | Animações e criação de figuras em baixo nível.
 [SwiftUI](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/SwiftUI)              | Introdução ao framework
+[Swift Lint](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/Swift%20Lint/SwiftLint-Aula)  | Configurações do Swift Lint
+[ARKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/Face%20Tracking/Aula)   | Facetracking
 
 </br>
 
@@ -127,11 +139,12 @@ Estudos feitos para aprofundar em um assunto específico, tanto em um challenge 
 
 Assunto   | Descrição
 --------- | ---------
-[MapKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/MapKit)        | Aprofundando com MapKit e suas APIs nativas.
-[CNContact](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/CNContact)  | Integração com a agenda de contatos do iPhone no código.
-[Table + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/TableView-CoreData)  | Entendendo sobre tabelas com CoreData.
-[Collection + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/Collection-CoreData)  | Entendendo sobre collections com CoreData.
-[AVFoundation](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/AVFoundation)  | Uso de áudios dentro do app
+[MapKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/MapKit)           | Aprofundando com MapKit e suas APIs nativas.
+[CNContact](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/CNContact)     | Integração com a agenda de contatos do iPhone no código.
+[Table + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/TableView-CoreData)         | Entendendo sobre tabelas com CoreData.
+[Collection + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/Collection-CoreData)   | Entendendo sobre collections com CoreData.
+[AVFoundation](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/AVFoundation)                   | Uso de áudios dentro do app
+[ARKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/Face%20Tracking/AR-Bronze)               | Entendendo sobre facetracking
 
 
 </br>
