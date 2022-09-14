@@ -85,6 +85,11 @@ Os repositórios estão disponíveis clicando no título.
         <td><p>iOS</p></td>
         <td><p>Realidade Aumentada</p></td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/Super-Macro"><p>Macrou</p></a></td>
+        <td><p>iOS</p></td>
+        <td><p>App final - mapeamento de hortas em SP</p></td>
+    </tr>
 </table>
 
 </br>
@@ -144,7 +149,8 @@ Assunto   | Descrição
 [Table + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/TableView-CoreData)         | Entendendo sobre tabelas com CoreData.
 [Collection + CoreData](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/Collection-CoreData)   | Entendendo sobre collections com CoreData.
 [AVFoundation](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/AVFoundation)                   | Uso de áudios dentro do app
-[ARKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/Face%20Tracking/AR-Bronze)               | Entendendo sobre facetracking
+[SearchBar](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/SearchBar)  | implemetação da search bar + filtro dela
+[Segmentation Control](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Estudos/SegmentationControl)  | Estudo da segmentation com texto e imagens
 
 
 </br>
