@@ -86,7 +86,7 @@ Os repositórios estão disponíveis clicando no título.
         <td><p>Realidade Aumentada</p></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/Super-Macro"><p>Macrou</p></a></td>
+        <td><a href="https://github.com/Hortali"><p>Hortali</p></a></td>
         <td><p>iOS</p></td>
         <td><p>App final - mapeamento de hortas em SP</p></td>
     </tr>
@@ -135,7 +135,7 @@ Aulas     | Descrição
 [SwiftUI](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/SwiftUI)              | Introdução ao framework
 [Swift Lint](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/Swift%20Lint/SwiftLint-Aula)  | Configurações do Swift Lint
 [ARKit](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/Face%20Tracking/Aula)   | Facetracking
-
+[WatchOS](https://github.com/Gui25Reis/Aulas-Academy/tree/main/Aulas/WatchOS)              | Entendendo o básico de WatchOS
 </br>
 
 
